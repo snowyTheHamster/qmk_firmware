@@ -4,8 +4,8 @@
 #include "config_common.h"
 
 #ifdef AUDIO_ENABLE
-    #define STARTUP_SONG SONG(PREONIC_SOUND)
-    // #define STARTUP_SONG SONG(NO_SOUND)
+    // #define STARTUP_SONG SONG(PREONIC_SOUND)
+    #define STARTUP_SONG SONG(NO_SOUND)
 
     #define DEFAULT_LAYER_SONGS { SONG(QWERTY_SOUND), \
                                   SONG(COLEMAK_SOUND), \
@@ -40,8 +40,3 @@
 //#define MIDI_TONE_KEYCODE_OCTAVES 2
 
 #endif
-
-#define MOUSEKEY_DELAY             0
-#define MOUSEKEY_INTERVAL          16
-#define MOUSEKEY_MAX_SPEED         7
-#define MOUSEKEY_TIME_TO_MAX       60
