@@ -9,7 +9,7 @@ enum preonic_layers {
 };
 
 enum preonic_keycodes {
-  DVORAK,
+  DVORAK = SAFE_RANGE,
   LOWER,
   NAVI,
   RAISE,
