@@ -2,14 +2,24 @@
 
 My custom layouts and guide for the following boards:
 
+<<<<<<< HEAD
 - Preonic
 - Levinson
+=======
+This is a keyboard firmware based on the [tmk\_keyboard firmware](https://github.com/tmk/tmk_keyboard) with some useful features for Atmel AVR and ARM controllers, and more specifically, the [OLKB product line](https://olkb.com), the [ErgoDox EZ](https://ergodox-ez.com) keyboard, and the [Clueboard product line](https://clueboard.co).
+>>>>>>> 738c6612ca0c5d0d95195af259abb1b6e3995b9b
 
 I map the same layout across all the boards. Implemented for 4x12 keyboards.
 
 ## 1. Installing QMK
 
+<<<<<<< HEAD
 Install some programs for Windows 10.
+=======
+The docs are powered by [Docsify](https://docsify.js.org/) and hosted on [GitHub](/docs/). They are also viewable offline; see [Previewing the Documentation](https://docs.qmk.fm/#/contributing?id=previewing-the-documentation) for more details.
+
+You can request changes by making a fork and opening a [pull request](https://github.com/qmk/qmk_firmware/pulls), or by clicking the "Edit this page" link at the bottom of any page.
+>>>>>>> 738c6612ca0c5d0d95195af259abb1b6e3995b9b
 
 goto: <a href="https://docs.qmk.fm/#/newbs_getting_started">https://docs.qmk.fm/#/newbs_getting_started</a>
 
@@ -24,6 +34,7 @@ goto: <a href="https://docs.qmk.fm/#/newbs_getting_started">https://docs.qmk.fm/
 
 - Also run this from the qmk directory if the next step fails:
 
+<<<<<<< HEAD
 ```
 util/msys2_install.sh
 ```
@@ -155,3 +166,10 @@ make 40percentclub/gherkin:default:avrdude
 ```
 
 Note: Short the ground (GND) and reset (RST) pins when prompted.
+=======
+QMK is developed and maintained by Jack Humbert of OLKB with contributions from the community, and of course, [Hasu](https://github.com/tmk). The OLKB product firmwares are maintained by [Jack Humbert](https://github.com/jackhumbert), the Ergodox EZ by [ZSA Technology Labs](https://github.com/zsa), the Clueboard by [Zach White](https://github.com/skullydazed), and the Atreus by [Phil Hagelberg](https://github.com/technomancy).
+
+## Official Website
+
+[qmk.fm](https://qmk.fm) is the official website of QMK, where you can find links to this page, the documentation, and the keyboards supported by QMK.
+>>>>>>> 738c6612ca0c5d0d95195af259abb1b6e3995b9b
