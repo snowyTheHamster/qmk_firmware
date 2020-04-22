@@ -68,8 +68,13 @@ secrets.tar
 id_rsa_*
 /.vs
 
+<<<<<<< HEAD
 # python things
 __pycache__
 
 # prerequisites for updating ChibiOS
 /util/fmpp*
+=======
+# env
+.venv/
+>>>>>>> 92e320640a1b1447a474b0641ffd403645238b9e
